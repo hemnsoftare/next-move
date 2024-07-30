@@ -15,7 +15,7 @@ const Header = () => {
         <span className="text-3xl font-bold py-1 px-2 rounded-lg bg-amber-500">
           IMdb
         </span>
-        <span className="text-xl hidden sm:inline">clone</span>
+        <span className="text-xl hidden sm:inline">Clone</span>
       </Link>
     </div>
   );
