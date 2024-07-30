@@ -1,5 +1,6 @@
+import Link from "next/link";
 import React from "react";
-import { Link } from "lucide-react";
+
 import { IconBaseProps, IconType } from "react-icons";
 
 type CustomIconType = IconType & React.ComponentType<IconBaseProps>;
