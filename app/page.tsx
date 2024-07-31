@@ -1,3 +1,4 @@
+import REsult, { Movie } from "@/components/REsult";
 import React from "react";
 
 const apiKey = process.env.API_KEY;
@@ -16,9 +17,13 @@ const Home = async ({ searchParams }: { searchParams: SearchParamsType }) => {
   if (!res.ok) {
     throw new Error("Failed to fetch data");
   }
-  const results = data.results;
+  const results: Movie[] = data.results;
   console.log(results);
-  return <div>hi</div>;
+  return (
+    <div>
+      <REsult a={results} />
+    </div>
+  );
 };
 
 //   const { data, error, isLoading } = useQuery({

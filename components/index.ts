@@ -3,4 +3,7 @@ import MenuItem from "./MenuItem";
 import DarkModeSwitch from "./DarkModeSwitch";
 import NavBar from "./NavBar";
 import NavbarItem from "./NavbarItem";
-export { Header, MenuItem, DarkModeSwitch, NavBar, NavbarItem };
+import Card from "./card";
+import REsult from "./REsult";
+
+export { Header, MenuItem, REsult, DarkModeSwitch, NavBar, NavbarItem, Card };
